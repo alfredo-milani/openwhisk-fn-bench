@@ -1,0 +1,15 @@
+{
+  "name": "img_man",
+  "version": "1.0.0",
+  "description": "Comandi utilizzati: $ npm init --yes $ npm install openwhisk-composer --save",
+  "main": "img_man.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openwhisk-composer": "^0.12.0"
+  }
+}

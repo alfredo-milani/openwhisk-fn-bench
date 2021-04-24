@@ -1,0 +1,13 @@
+{
+    "$composer": {
+        "openwhisk": {
+            "ignore_certs": true
+        },
+        "redis": {
+            "uri": "redis://10.64.0.20:6379"
+        }
+    },
+    "in_type": "url",
+    "in_location": "https://www.nasa.gov/sites/default/files/thumbnails/image/5091372229_ebca868ffd_o.jpeg",
+    "result": true
+}

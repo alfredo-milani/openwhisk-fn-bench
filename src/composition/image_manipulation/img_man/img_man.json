@@ -1,0 +1,41 @@
+{
+    "composition": {
+        "type": "sequence",
+        "components": [
+            {
+                "type": "action",
+                "name": "/_/resize",
+                "path": "[0]"
+            },
+            {
+                "type": "action",
+                "name": "/_/mirror",
+                "path": "[1]"
+            },
+            {
+                "type": "action",
+                "name": "/_/greyscale",
+                "path": "[2]"
+            }
+        ],
+        "path": ""
+    },
+    "ast": {
+        "type": "sequence",
+        "components": [
+            {
+                "type": "action",
+                "name": "/_/resize"
+            },
+            {
+                "type": "action",
+                "name": "/_/mirror"
+            },
+            {
+                "type": "action",
+                "name": "/_/greyscale"
+            }
+        ]
+    },
+    "version": "0.12.0"
+}
